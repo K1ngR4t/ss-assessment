@@ -1,0 +1,26 @@
+
+/* fonts */
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lato-light';
+  src: url('./assets/fonts/Lato-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Lato-bold';
+  src: url('./assets/fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Bio';
+  src: url('./assets/fonts/BioRhyme-Light.ttf');
+}
+
+body{
+  font-family: Lato, sans-serif;
+  background-image: radial-gradient( circle farthest-corner at 51% 51.5%,  rgba(237,69,69,0.91) 0.1%, rgba(170,20,20,1) 90% );
+}
